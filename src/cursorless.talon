@@ -56,3 +56,6 @@ tutorial <number_small>:
 
 {user.cursorless_homophone} migrate snippets:
     user.private_cursorless_migrate_snippets()
+
+parse tree <user.cursorless_target>:
+    user.cursorless_command("private.showParseTree", cursorless_target)
